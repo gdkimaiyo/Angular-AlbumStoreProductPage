@@ -11,7 +11,7 @@ import { ProductService } from './product.service';
 import { ProductTracklistingComponent } from './product-tracklisting/product-tracklisting.component';
 import { ProductListComponent } from './product-list/product-list.component';
 
-export const appRoutes: Routes = [
+const appRoutes: Routes = [
   { path: 'products', component: ProductListComponent },
   { path: 'product/:id', component: ProductPageComponent },
   { path: '', redirectTo: 'products', pathMatch: 'full' },
